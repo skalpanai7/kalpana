@@ -1,5 +1,5 @@
-N,Q =map(int,raw_input().split())
-for i in range(N+1,Q):
+n,q=map(int,raw_input().split())
+for i in range(n+1,q):
 	if(i>1):
 		for k in range(2,i):
 			if(i%k==0):
