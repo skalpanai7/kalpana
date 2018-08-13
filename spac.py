@@ -1,6 +1,6 @@
-s=raw_input()
+string=raw_input()
 count=0
-for i in s: 
+for i in string: 
 	if(i == " "):
 		count=count+1
 print(count)
