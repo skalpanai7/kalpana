@@ -12,7 +12,7 @@ def spl(str):
 			pass
 		else:
 			count=count+ 1
-		if ch == ' ':
+		if ch == '_':
 			count=count-1
 
 	return count
