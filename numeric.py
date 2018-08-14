@@ -1,4 +1,4 @@
-tring=raw_input()
+string=raw_input()
 count=0
 for i in string:
 	if i.isdigit():
